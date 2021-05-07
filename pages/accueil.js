@@ -7,6 +7,7 @@ import NewsLater from '../components/shared/Newlater';
 import { InputGroup, InputGroupAddon, Input } from 'reactstrap';
 import FormContact from '../components/shared/formContact';
 import GrilleComponentPays from '../components/shared/PaysDispo';
+import HelmetPage from "../components/HelmetComponent";
 
 const Wrapper = styled(Container)`
   background: #fbfbfb;
@@ -29,6 +30,7 @@ const Wrapper = styled(Container)`
       return (
           
         <Wrapper fluid>
+        <HelmetPage title={"Acceuil"} description={"Home page"}/>
             <Container>
                 <Row>
                     <Col>

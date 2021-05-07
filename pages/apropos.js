@@ -4,6 +4,7 @@ import styled from "styled-components";
 import ImageAccueil from "../components/shared/ImageAccueil/ImageAccueil";
 import Bouton from "../components/shared/Bouton/Bouton";
 import GrilleComponent from "../components/shared/grilleComponent/grilleComponent";
+import HelmetPage from "../components/HelmetComponent";
 
 const Wrapper = styled.div`
   .row {
@@ -47,6 +48,7 @@ const ListeGrille = [
 export default function Apropos() {
   return (
     <Wrapper>
+    <HelmetPage title={"A propos"} description={"Page à propos"}/>
       <Row>
         <Col sm={12}>
           <ImageAccueil picture="/img/children.jpg" />

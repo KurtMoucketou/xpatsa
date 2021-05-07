@@ -42,7 +42,7 @@ const customSteps = [
     component: <Step3 />,
   },
   {
-    label: "Payment detailss",
+    label: "Resumer transaction",
     number: "4",
     component: <Step4 />,
   },

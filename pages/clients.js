@@ -8,6 +8,7 @@ import TrCardWidget from '../components/shared/TrCardWidgetLeft';
 import CardClientWidgetTable from '../components/shared/CardClientWidgetTable';
 import useUser from '../lib/useUser';
 import Router from 'next/router'
+import HelmetPage from "../components/HelmetComponent";
 const Wrapper = styled.div`
 
 /* ---------------------------------------------------
@@ -37,6 +38,7 @@ export default function Client() {
     }
   return (
       <Wrapper>
+      <HelmetPage title={"Clients"} description={"Nos clients"}/>
         <div className="wrapper">
             <AsideBar  />
             <div id="content" className="generalAdminBody">

@@ -11,6 +11,7 @@ import GrilleComponentPays from "../components/shared/PaysDispo";
 import { Container, Button, Row, Col } from "reactstrap";
 import FormContact from "../components/shared/formContact";
 import NewsLater from "../components/shared/Newlater";
+import HelmetPage from "../components/HelmetComponent";
 
 // const ViewerQuery = gql`
 //   query ViewerQuery {
@@ -68,6 +69,7 @@ const Index = (props) => {
 
   return (
     <div>
+      <HelmetPage title={"Home"} description={"Page d'acceuil"}/>
       <Wrapper>
         <Caroussel />
       </Wrapper>

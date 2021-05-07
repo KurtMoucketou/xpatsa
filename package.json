@@ -38,6 +38,7 @@
     "react-devtools": "^4.10.1",
     "react-dom": "^16.7.0",
     "react-gsap": "^2.2.1",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.1.0",
     "react-loki": "^1.2.0",
     "react-modal": "^3.13.1",

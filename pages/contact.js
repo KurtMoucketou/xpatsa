@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Container, Row, Col, Card } from "reactstrap";
 import styled from "styled-components";
 import FormContact from '../components/shared/formContact';
+import HelmetPage from "../components/HelmetComponent";
 
 const Wrapper = styled.div`
 
@@ -17,6 +18,7 @@ const Wrapper = styled.div`
 export default function Contact() {
   return (
       <Wrapper>
+      <HelmetPage title={"Contact"} description={"Page de contact"}/>
         <Container>
            <Row>
               <Col>

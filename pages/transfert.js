@@ -2,6 +2,7 @@ import React,{useState, useEffect} from "react";
 import TransferForm from "../components/transferFrom";
 // import TransactionProvider from '../ContextAPI/TransactionContext'
  import {TestProvider} from '../ContextAPI/TestContext';
+ import HelmetPage from "../components/HelmetComponent";
 
 const TransfertPage = (props) => {
 
@@ -68,6 +69,7 @@ const TransfertPage = (props) => {
 
   return (
       <TestProvider value={transaction}>
+      <HelmetPage title={"Transfert"} description={"Simuler une transaction"}/>
         <TransferForm />
       </TestProvider>
   );
