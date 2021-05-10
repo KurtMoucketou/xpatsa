@@ -63,11 +63,11 @@ const transfert = (props) => {
           lienIcon = "/img/stepIcon2.svg";
           break;
         case 2:
-          lienIcon = "/img/stepIcon3.svg";
+          lienIcon = "/img/stepPaiementIcon.svg";
           break;
 
         default:
-          lienIcon = "/img/stepIcon3.svg";
+          lienIcon = "/img/stepResumIcon.svg";
           break;
       }
       return (
