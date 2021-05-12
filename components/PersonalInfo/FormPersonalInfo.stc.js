@@ -5,7 +5,7 @@ const PersonalInfoStc=Styled.div`
     {
         width: 100% !important;
         margin: 10px 0px;
-        border: 1px solid #ccc;
+        border: 1px solid #000;
     }
     select
     {

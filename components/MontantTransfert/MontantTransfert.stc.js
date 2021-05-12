@@ -6,7 +6,7 @@ const MontantStc=Styled.div`
     {
         box-shadow:0px 0px 0px;
         width:100%;
-        border:0px;
+        border: 1px;
     }
     .divInputValider
     {
@@ -24,7 +24,7 @@ const MontantStc=Styled.div`
 
     .input 
     {
-        border:0px;
+        border:1px solid #000;
         background:transparent;
         color:#333;
     }

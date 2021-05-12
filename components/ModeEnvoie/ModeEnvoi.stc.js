@@ -24,7 +24,7 @@ const ModeEnvoiStc=Styled.div`
     }
     select
     {
-        border:0px;
+        border:1px solid #000;
         width:100%;
     }
     label
