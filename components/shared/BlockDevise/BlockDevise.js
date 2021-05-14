@@ -36,7 +36,7 @@ const BlockDevise = (props) => {
           <h1>
             <BsPersonCheckFill/>EFFICACITE
           </h1>
-          <p>Nous offrons d'excellents taux de change et des frais peu élevés afin de satisfaire en mieux nos clients.Alors n'atendez plus, faites des économies avec Xpatsa.
+          <p>Nous offrons d'excellents taux de change et des frais peu élevés afin de satisfaire en mieux nos clients.Alors n'attendez plus, faites des économies avec Xpatsa.
           </p>
         </BlockDeviseStc>
       </Col>

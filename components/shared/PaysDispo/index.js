@@ -17,7 +17,7 @@ const GrilleComponentPays = (props) => {
             <Container className='d-flex justify-content-center'>
                     <Col lg={8} className="divTexte">
                         <Titre texte="Disponible dans 3 pays du monde" underline="2" color="#007bff"/>
-                        <p>Envoyez et recevez de l’argent partout que vous soyez en Afrique du Sud,
+                        <p>Envoyez et recevez de l’argent où que vous soyez en Afrique du Sud,
                             au Gabon, ou au Maroc grâce à XPATSA et nos partenaires locaux.
                             
                             Xpatsa vous offre un service de transfert d’argent rapide et près 

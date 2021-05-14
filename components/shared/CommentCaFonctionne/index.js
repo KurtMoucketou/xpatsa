@@ -20,7 +20,7 @@ const Listeblock = [
     titre: "2. Entrer le destinataire ",
     color: "#007bff",
     paragraphe:
-      "Il vous suffit juste de saisir les contacts du destinataire après avoir tombé d'accord avec XPATSA sur les tarifs proposés",
+      "Il vous suffit juste de saisir les contacts du destinataire après être tombé d'accord avec XPATSA sur les tarifs proposés",
     icon: "/img/fpic2.svg",
     key: "suis",
   },
@@ -37,7 +37,7 @@ const CommentCaFonctionne = (props) => {
   return (
     <CommentCaFonctionneStc>
       <Container>
-        <Titre texte="Comment ca fonctionne ?" color="#007bff" />
+        <Titre texte="Comment ça fonctionne ?" color="#007bff" />
         <Row>
           {Listeblock.map((block) => (
             <Col lg={4}>
